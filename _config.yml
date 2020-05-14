@@ -1,11 +1,11 @@
 # Site settings
-author: claudia v
-title: 
+author: Claudia Vamesu
+title: Why I want to become a software engineer
 header-img: img/home-bg.png
 email: claudia4ro@yahoo.com
-copyright_name: claudia v
+copyright_name: Claudia Vamesu
 description: > # this means to ignore newlines until "baseurl:"
-  
+  The beginning
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  claudiahalip
