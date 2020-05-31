@@ -35,15 +35,15 @@ https://breakingbadapi.com/documentation
 
 3. display the list characters of Breaking Bad TV show
  
-4.ask user for input (what character )
+4. ask user for input (what character )
 
-5.display "character name " and ask the user again if they want to know some facts about the chosen character 
+5. display "character name " and ask the user again if they want to know some facts about the chosen character 
 
-6.display the facts 
+6. display the facts 
 
-7.ask user again if they want to see some quotes from that character
+7. ask user again if they want to see some quotes from that character
  
-8.display the quotes 
+8. display the quotes 
 
 9. option to chose another character or exit
 
