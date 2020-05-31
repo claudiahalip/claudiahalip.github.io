@@ -34,12 +34,18 @@ https://breakingbadapi.com/documentation
 2. ask user if they want to see a list of characters(optional or display the list of characters in the same time with the greeting)
 
 3. display the list characters of Breaking Bad TV show
+ 
 4.ask user for input (what character )
+
 5.display "character name " and ask the user again if they want to know some facts about the chosen character 
+
 6.display the facts 
-5.ask user again if they want to see some quotes from that character 
-6.display the quotes 
-7. option to chose another character or exit
+
+7.ask user again if they want to see some quotes from that character
+ 
+8.display the quotes 
+
+9. option to chose another character or exit
 
 
 After writing a few lines I felt like the project started coming to shape.
