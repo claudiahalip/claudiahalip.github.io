@@ -14,7 +14,9 @@ At the begging of CLI project week and after 2 weeks of learning the Ruby langua
  
  Beside that I knew that I might need to build a few classes, use all my knowledge I learned  on the past two weeks about variables, strings, array, hashes etc but I didn’t know how to start.
  
->     Thinking and thinking I realized that my problem was that I didn’t know what I wanted from my CLI application .I started by writing  down few thoughts :
+ 
+ 
+ 
 
 
 name -CLI project (Braking Bad TV Show-facts)
