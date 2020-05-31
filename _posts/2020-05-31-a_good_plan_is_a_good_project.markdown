@@ -6,19 +6,12 @@ permalink:  a_good_plan_is_a_good_project
 ---
 
 
-   
-	 
-		 
-   I've never thought that I would create a CLI project all by myself.
-		 
-  At the beginning of CLI project week and after 2 weeks of learning the Ruby language I found myself in the position that I didn’t know where to start or how.
 
-  I’ve decided to use an API for my project, one of the requirements was to  provide access to data for a web page. I new I needed some gems:   Net::HTTP to build HTTP user_agent. This will also require “uri” so you don’t need to require it separately and JSON  to parse the string I obtained by calling GET method.
- 
+     I’ve never thought that I would create a CLI project all by myself.
+At the begging of CLI project week and after 2 weeks of learning the Ruby language I found myself in the position that I didn’t know where to start or how.
+ I’ve decided to use an API for my project, one of the requirements was to  provide access to data for a web page. I new I needed some gems:   Net::HTTP to build HTTP user_agent. This will also require “uri” so you don’t need to require it separately and JSON  to parse the string I obtained by calling GET method.
  Beside that I knew that I might need to build a few classes, use all my knowledge I learned  on the past two weeks about variables, strings, array, hashes etc but I didn’t know how to start.
- 
-   Thinking and thinking I realized that my problem was that I didn’t know what I wanted from my CLI application .I started by writing  down few thoughts :
-
+     Thinking and thinking I realized that my problem was that I didn’t know what I wanted from my CLI application .I started by writing  down few thoughts :
 
 name -CLI project (Braking Bad TV Show-facts)
 
@@ -41,9 +34,12 @@ https://breakingbadapi.com/documentation
 
 
 After writing a few lines I felt like the project started coming to shape.
-
 Lesson learned, a good plan at the beginning is the most important thing for a successful project.
-
-
 It’s been three months and three weeks of learning to code!
+
+
+
+   
+	 
+		 
 
