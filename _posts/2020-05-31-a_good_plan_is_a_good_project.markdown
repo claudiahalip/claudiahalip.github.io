@@ -8,7 +8,7 @@ permalink:  a_good_plan_is_a_good_project
 
 **     I’ve never thought that I would create a CLI project all by myself.
 
-At the begging of CLI project week and after 2 weeks of learning the Ruby language I found myself in the position that I didn’t know where to start or how.
+At the beginning of CLI project week and after 2 weeks of learning the Ruby language I found myself in the position that I didn’t know where to start or how.
 
  I’ve decided to use an API for my project, one of the requirements was to  provide access to data for a web page. I new I needed some gems:   Net::HTTP to build HTTP user_agent. This will also require “uri” so you don’t need to require it separately and JSON  to parse the string I obtained by calling GET method.
  
