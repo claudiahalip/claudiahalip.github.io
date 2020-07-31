@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The elegant collection_select method"
-date:       2020-07-31 14:34:23 +0000
+date:       2020-07-31 10:34:24 -0400
 permalink:  the_elegant_collection_select_method
 ---
 
