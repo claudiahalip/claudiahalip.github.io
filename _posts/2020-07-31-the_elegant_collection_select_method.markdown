@@ -34,7 +34,7 @@ collection_select(object, method, collection, value_method, text_method, options
 So, let’t take the argument one by one:
   -object: is the object I am creating the form for, in my case business
   -method:  is one of my object(business) method , category_id which will 
-set the id attribute of the <select> tag
+set the id attribute of the select tag
   -collection: is the array of all the category objects I have in may database, Category.all of course.
  -value_method: will be the value attribute of each option tag  :id(the id of the category-user’s selection)
 -text_method: is what the viewer sees and can choose from :name(the name of the category)
