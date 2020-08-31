@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "One page application, one week to accomplish"
-date:       2020-08-31 04:15:14 +0000
+date:       2020-08-31 00:15:15 -0400
 permalink:  one_page_application_one_week_to_accomplish
 ---
 
