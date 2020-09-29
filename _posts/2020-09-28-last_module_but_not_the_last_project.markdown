@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Last module but not the last project"
-date:       2020-09-29 03:56:19 +0000
+title:      "Last phase of the module but not the last project"
+date:       2020-09-28 23:56:19 -0400
 permalink:  last_module_but_not_the_last_project
 ---
 
@@ -16,4 +16,4 @@ So to recap here  :
 
  -a prop Props is short for properties and they are used to pass data between React components. Data from props is read-only, and cannot be modified by a component that is receiving it from outside.Props can only be passed from parent component to child (unidirectional flow).
  
- It has been 7 months of learning coding!
+ It’s been 7 months of learning to code.
