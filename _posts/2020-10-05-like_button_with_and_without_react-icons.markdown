@@ -94,24 +94,23 @@ First I installed react_icons:
 
 `npm install react-icons --save`
 
-then I imported the Heart icon:
- 
-
-`import {FaHeart} from 'react-icons/fa'`
-
 
 The state declaration and handleOnClick function will stay the same. I’ve changed just the display of the heart which now is imported from react-icons and added an  input of radio type.The component will look like this:
 
 ```
 import React, { Component } from 'react'
+
 import {FaHeart} from 'react-icons/fa'
+
 class LikeButtonReactIcons extends Component {
+
     state={ likesCount: 0 }
+		
 		handleLikeClick=(e)=>{
-    e.preventDefault();
-    let newLikeClick = this.state.likesCount+1
-    this.setState({
-        likesCount: newLikeClick
+       e.preventDefault();
+       let newLikeClick = this.state.likesCount+1
+       this.setState({
+          likesCount: newLikeClick
       })
     }
   render(){
