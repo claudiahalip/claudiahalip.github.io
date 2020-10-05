@@ -8,8 +8,7 @@ permalink:  like_button_with_and_without_react-icons
 
 Before I found out about react-icons, I added a like feature to my React application in a, I would say, pure React traditional way:
 First I created a new component:
-
-import React, { Component } from 'react'
+``` import React, { Component } from 'react'
 
 class LikeButton extends Component {
     render(){
@@ -20,6 +19,8 @@ class LikeButton extends Component {
       )
     }
 }
+
+export default LikeButton```
 
 Then I defined a state:
 
