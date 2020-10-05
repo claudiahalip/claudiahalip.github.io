@@ -50,8 +50,7 @@ render(){
              {this.displayHeart()}
 					</div>
       )
-    }
-	```
+    }```
 	
 
       The  function  * handleLikeClick*  will handle what will happen with each click, 
@@ -65,8 +64,7 @@ handleLikeClick=(e)=>{
     this.setState({
       likesCount: newLikeClick
     })
-  }
-```
+  }```
 
 
 Putting everything together the  LikeButton component should look like this:
@@ -97,8 +95,7 @@ class LikeButton extends Component {
       )
     }
 }
-export default LikeButton
-```
+export default LikeButton```
 
 
 The beauty of React is that now you can import this component every where you want.
@@ -108,11 +105,15 @@ After implementing this version I came across ‘react-icons’.
 Here are the steps I took:
 First I installed react_icons:
 
+
 `npm install react-icons --save`
 
+
  then I imported the Heart icon:
+ 
 
 ` import {FaHeart} from 'react-icons/fa' `
+
 
 The state declaration and handleOnClick function will stay the same. I’ve changed just the display of the heart witch now is imported from react-icons and added an  input of radio type:
 
@@ -142,18 +143,15 @@ class LikeButtonReactIcons extends Component {
       )
     }
 }
-export default LikeButtonReactIcons
-```
+export default LikeButtonReactIcons```
 
 
 Don’t forget to hide the radio button in the App.css  so just the heart will be visible:
 
 
-```
-input[type ="radio"] {
+```input[type ="radio"] {
   display: none;
-}
-```
+}```
 
 
 
