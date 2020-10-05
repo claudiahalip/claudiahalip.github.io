@@ -43,7 +43,8 @@ and then render this function.
 
 The function that will handle the click will change the state by increasing it by 1:
 
-```handleLikeClick=(e)=>{
+```
+handleLikeClick=(e)=>{
     e.preventDefault();
     let newLikeClick = this.state.likesCount+1
     this.setState({
