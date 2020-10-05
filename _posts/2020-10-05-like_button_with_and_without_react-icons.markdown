@@ -27,9 +27,9 @@ export default LikeButton
 
 Then I defined a state:
 
-```
+` 
 state={ likesCount: 0 }
-```
+`
 
 I wanted to set my like button as a heart and if I don’t have any likes to display an empty heart and with the first like the heart will be a full one. Also I wanted to show how many likes I  have. For that I defined a function:
 
