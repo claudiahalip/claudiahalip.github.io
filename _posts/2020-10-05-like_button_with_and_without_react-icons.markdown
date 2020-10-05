@@ -42,6 +42,16 @@ displayHeart=()=>{
 
 and then render this function :
 
+```
+render(){
+      return(
+          <div>
+            {this.displayHeart()}
+          </div>
+      )
+    }
+	```
+
 
 Putting everything together the  LikeButton component should look like this:
 
