@@ -40,8 +40,7 @@ displayHeart=()=>{
       else{
       return <button onClick={this.handleLikeClick}>♥ {this.state.likesCount}</button>}}
   }
-	
-	```
+```
 
 and then render this function :
 
@@ -54,8 +53,7 @@ render(){
           </div>
       )
     }
-		
-```
+	```
 
 handleLikeClick function will handle what will happen with each click, changing the state:
 
