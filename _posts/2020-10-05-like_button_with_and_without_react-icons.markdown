@@ -45,8 +45,7 @@ and then render this function :
 
 
 
-      The  function  * handleLikeClick*  will handle what will happen with each click, 
-	changing the state:
+      
 
 
 
