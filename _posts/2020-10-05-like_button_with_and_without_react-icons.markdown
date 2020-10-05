@@ -54,6 +54,7 @@ render(){
           </div>
       )
     }
+		
 ```
 
 handleLikeClick function will handle what will happen with each click, changing the state:
