@@ -27,7 +27,9 @@ export default LikeButton
 
 Then I defined a state:
 
-`state={ likesCount: 0 }`
+```
+state={ likesCount: 0 }
+```
 
 I wanted to set my like button as a heart and if I don’t have any likes to display an empty heart and with the first like the heart will be a full one. Also I wanted to show how many likes I  have. For that I defined a function:
 
@@ -100,7 +102,6 @@ class LikeButton extends Component {
 }
 
 export default LikeButton
-
 ```
 
 The beauty of React is that now you can import this component every where you want.
@@ -110,11 +111,15 @@ After implementing this version I came across ‘react-icons’.
 Here are the steps I took:
 First I installed react_icons:
 
-`npm install react-icons --save`
+```
+npm install react-icons --save
+```
 
  then I imported the Heart icon:
 
-`import {FaHeart} from 'react-icons/fa'`
+```
+import {FaHeart} from 'react-icons/fa'
+```
 
 The state declaration and handleOnClick function will stay the same. I’ve changed just the display of the heart witch now is imported from react-icons and added an  input of radio type:
 
@@ -149,6 +154,7 @@ class LikeButtonReactIcons extends Component {
 export default LikeButtonReactIcons
 
 ```
+
 Don’t forget to hide the radio button in the App.css  so just the heart will be visible:
 
 ```
