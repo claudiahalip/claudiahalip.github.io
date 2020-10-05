@@ -54,7 +54,8 @@ render(){
 	```
 	
 
-   The  function  * handleLikeClick*  will handle what will happen with each click, changing the state:
+      The  function  * handleLikeClick*  will handle what will happen with each click, 
+	changing the state:
 
 
 ```
@@ -68,7 +69,7 @@ handleLikeClick=(e)=>{
 ```
 
 
-Putting everything together your LikeButton component should look like this:
+Putting everything together the  LikeButton component should look like this:
 
 
 ```
