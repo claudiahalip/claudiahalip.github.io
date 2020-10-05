@@ -81,10 +81,7 @@ class LikeButton extends Component {
           </div>
       )
     }
-}
-export default LikeButton
-
-```
+}export default LikeButton```
 
 
 The beauty of React is that now you can import this component every where you want.
@@ -129,16 +126,14 @@ class LikeButtonReactIcons extends Component {
           </div>
       )
     }
-}
-export default LikeButtonReactIcons
-```
+}export default LikeButtonReactIcons```
+
 
 Don’t forget to hide the radio button in the App.css  so just the heart will be visible:
-```
-input[type ="radio"] {
+
+```input[type ="radio"] {
   display: none;
-}
-```
+}```
 
 It’s been 7 months  and 1 week of learning to code.
 
