@@ -38,31 +38,18 @@ displayHeart=()=>{
       return <button onClick={this.handleLikeClick}>♥ {this.state.likesCount}</button>}}
   }
 ```
+and then render this function.
 
 
-and then render this function :
+The function that will handle the click will change the state by increasing it by 1:
 
-```
-render(){
-      return(
-          <div>
-            {this.displayHeart()}
-          </div>
-      )
-    }
-	```
-
-Then I dfined the function that will handle the click, changing the state:
-
-```
-handleLikeClick=(e)=>{
+```handleLikeClick=(e)=>{
     e.preventDefault();
     let newLikeClick = this.state.likesCount+1
     this.setState({
       likesCount: newLikeClick
     })
-}
-```
+}```
 
 
 Putting everything together the  LikeButton component should look like this:
