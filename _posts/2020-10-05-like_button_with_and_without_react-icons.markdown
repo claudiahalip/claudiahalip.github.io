@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Like button with and  without  react-icons"
-date:       2020-10-05 19:01:01 +0000
+date:       2020-10-05 15:01:02 -0400
 permalink:  like_button_with_and_without_react-icons
 ---
 
@@ -20,8 +20,6 @@ class LikeButton extends Component {
       )
     }
 }
-
-export default LikeButton
 
 Then I defined a state:
 
@@ -141,6 +139,8 @@ Don’t forget to hide the radio button in the App.css :
 input[type ="radio"] {
   display: none;
 }
+
+
 
 
 
