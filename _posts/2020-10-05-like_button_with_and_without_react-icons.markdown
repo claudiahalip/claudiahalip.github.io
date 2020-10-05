@@ -52,8 +52,17 @@ render(){
     }
 	```
 
-The function handleLikeClick  will handle what will happen with each click, changing the state:
+Then I dfined the function that will handle the click, changing the state:
 
+```
+handleLikeClick=(e)=>{
+    e.preventDefault();
+    let newLikeClick = this.state.likesCount+1
+    this.setState({
+      likesCount: newLikeClick
+    })
+}
+```
 
 
 Putting everything together the  LikeButton component should look like this:
