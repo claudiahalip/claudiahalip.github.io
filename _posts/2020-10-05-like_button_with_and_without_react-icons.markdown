@@ -55,12 +55,11 @@ handleLikeClick=(e)=>{
 
 Putting everything together the  LikeButton component should look like this:
 
+
 ```
 import React, { Component } from 'react'
-
 class LikeButton extends Component {
     state={ likesCount: 0 }
-
     displayHeart=()=>{
         {if(this.state.likesCount === 0){
         return <button onClick={this.handleLikeClick}>♡ {this.state.likesCount}</button>}
@@ -141,6 +140,8 @@ input[type ="radio"] {
   display: none;
 }
 ```
+
+It’s been 7 months  and 1 week of learning to code.
 
 
 
