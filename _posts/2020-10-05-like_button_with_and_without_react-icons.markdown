@@ -10,7 +10,7 @@ Before I found out about react-icons, I added a like feature to my React applica
 First I created a new component:
 
 ```
-import React, { Component } from 'react'
+import React, { Component } from "react"
 class LikeButton extends Component {
     render(){
       return(
@@ -57,8 +57,7 @@ Putting everything together the  LikeButton component should look like this:
 
 
 ```
-
-import React, { Component } from 'react';
+import React, { Component } from "react";
 class LikeButton extends Component {
     state={ likesCount: 0 }
     displayHeart=()=>{
@@ -98,10 +97,8 @@ First I installed react_icons:
 The state declaration and handleOnClick function will stay the same. I’ve changed just the display of the heart which now is imported from react-icons and added an  input of radio type.The component will look like this:
 
 ```
-import React, { Component } from 'react'
-
-import {FaHeart} from 'react-icons/fa'
-
+import React, { Component } from "react"
+import {FaHeart} from "react-icons/fa"
 class LikeButtonReactIcons extends Component {
 
     state={ likesCount: 0 }
